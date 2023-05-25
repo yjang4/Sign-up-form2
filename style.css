@@ -1,8 +1,38 @@
 body {
-    background-image: url("bg.jpg");
+    background: url(bluebg.png) no-repeat center center fixed;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
+
+    
+
 }
+.body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    display:flex;
+    justify-content: center;
+}
+.sign-up-form {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 36px;
+    margin: 100px;
+
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
